@@ -1,6 +1,6 @@
 name: Testing Katalon Run-Time
 on:
-  #push:
+  push:
   schedule:
     - cron: '30 4 * * *' #at 5 pm (23:00 pm UTC) 
   
