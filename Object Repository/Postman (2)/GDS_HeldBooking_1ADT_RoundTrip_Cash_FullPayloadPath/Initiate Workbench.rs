@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Initiate Workbench</name>
+   <tag></tag>
+   <elementGuidId>878abf67-ca7c-4e04-823f-432365e0057b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;ReservationID\&quot;: {\r\n                \r\n    }\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>E2ETrackingID</name>
+      <type>Main</type>
+      <value>${guid}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP</name>
+      <type>Main</type>
+      <value>${XAUTH_TRAVELPORT_ACCESSGROUP_1G}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Version</name>
+      <type>Main</type>
+      <value>${Version}</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://api.apim-a.zu2.qa.travelport.io/uat/${Version}/air/book/session/RES_DOMAIN/reservationworkbench</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Version</defaultValue>
+      <description></description>
+      <id>634adca0-af6c-4555-a1b9-ed7ef0d4351d</id>
+      <masked>false</masked>
+      <name>Version</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.guid</defaultValue>
+      <description></description>
+      <id>fef4be1c-9bb2-461f-b79b-193480feb073</id>
+      <masked>false</masked>
+      <name>guid</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.XAUTH_TRAVELPORT_ACCESSGROUP_1G</defaultValue>
+      <description></description>
+      <id>48680041-272a-4d87-8d20-2a795706799a</id>
+      <masked>false</masked>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP_1G</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

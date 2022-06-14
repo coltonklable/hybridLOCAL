@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "85828463997187AB7DF42CD70C62F839",
+  "keywordClasses": [
+    {
+      "name": "cAPI.GenericLib",
+      "keywordMethods": [
+        {
+          "name": "FDate",
+          "parameters": [
+            {
+              "name": "sFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "iFutureDays",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Integer",
+                "unresolvedClassName": "Integer",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

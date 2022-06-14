@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ApplicationWindow</name>
+   <tag></tag>
+   <locator>Application Window 1</locator>
+   <locatorStrategy>NAME</locatorStrategy>
+</WindowsElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>GDPNRNoName</name>
+   <tag></tag>
+   <locator>Galileo Desktop - [PNR - No Names]</locator>
+   <locatorStrategy>NAME</locatorStrategy>
+</WindowsElementEntity>

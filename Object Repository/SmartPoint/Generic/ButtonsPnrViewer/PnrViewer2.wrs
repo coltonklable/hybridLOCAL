@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>PnrViewer2</name>
+   <tag></tag>
+   <locator>PART_PNRContainer</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>FlowDocumentScrollViewer</value>
+   </properties>
+</WindowsElementEntity>

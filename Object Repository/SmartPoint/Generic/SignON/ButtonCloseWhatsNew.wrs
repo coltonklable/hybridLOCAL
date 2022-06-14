@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ButtonCloseWhatsNew</name>
+   <tag></tag>
+   <locator>//Window[@AutomationId=&quot;Window_WhatsNewWindow&quot;]/Button[@AutomationId=&quot;uiCloseButton&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>

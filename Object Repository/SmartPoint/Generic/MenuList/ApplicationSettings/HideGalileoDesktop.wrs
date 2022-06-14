@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>HideGalileoDesktop</name>
+   <tag></tag>
+   <locator>CheckBox_4adbb1d8779abe</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+</WindowsElementEntity>

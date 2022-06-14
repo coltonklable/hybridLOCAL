@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>WhatsNew</name>
+   <tag></tag>
+   <locator>Window_WhatsNewWindow</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Name</name>
+      <type>Main</type>
+      <value>What's New in Smartpoint</value>
+   </properties>
+</WindowsElementEntity>

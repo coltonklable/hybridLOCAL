@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>TextFieldEndorsement</name>
+   <tag></tag>
+   <locator>//Edit[@AutomationId=&quot;WatermarkTextBox_2ec931862780ac8&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ApplicationSettings</name>
+   <tag></tag>
+   <locator>SmartMenuItem_4adbb1d85c8e0b
+</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+</WindowsElementEntity>

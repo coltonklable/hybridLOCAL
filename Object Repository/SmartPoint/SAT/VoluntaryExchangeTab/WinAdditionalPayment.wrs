@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>WinAdditionalPayment</name>
+   <tag></tag>
+   <locator>Travelport Smartpoint Voluntary Change - Additional Payment</locator>
+   <locatorStrategy>NAME</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>AutomationId</name>
+      <type>Main</type>
+      <value>Window_TravelportSmartpointVoluntaryChangeAdditionalPayment</value>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>Window</value>
+   </properties>
+</WindowsElementEntity>

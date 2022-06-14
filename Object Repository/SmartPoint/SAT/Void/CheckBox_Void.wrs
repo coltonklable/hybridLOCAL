@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>CheckBox_Void</name>
+   <tag></tag>
+   <locator>//CheckBox[@AutomationId=&quot;CheckBox_2ec93186272da84&quot;]
+</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>

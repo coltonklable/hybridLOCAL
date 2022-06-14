@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ButtonALL</name>
+   <tag></tag>
+   <locator>*ALL</locator>
+   <locatorStrategy>NAME</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>Button</value>
+   </properties>
+</WindowsElementEntity>

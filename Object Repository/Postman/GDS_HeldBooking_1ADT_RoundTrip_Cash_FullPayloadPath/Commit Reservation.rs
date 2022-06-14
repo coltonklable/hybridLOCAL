@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Commit Reservation</name>
+   <tag></tag>
+   <elementGuidId>800c183c-9072-4f40-98c4-7958040d4aa8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>E2ETrackingID</name>
+      <type>Main</type>
+      <value>${guid}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP</name>
+      <type>Main</type>
+      <value>${XAUTH_TRAVELPORT_ACCESSGROUP_1G}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Version</name>
+      <type>Main</type>
+      <value>${Version}</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://api.apim-a.zu2.qa.travelport.io/uat/${Version}/air/book/reservation/RES_DOMAIN/reservations/${reservationId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Version</defaultValue>
+      <description></description>
+      <id>c101df30-4619-41da-930d-9fd1520e3fec</id>
+      <masked>false</masked>
+      <name>Version</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.reservationId</defaultValue>
+      <description></description>
+      <id>0cfb5ac9-9c06-446e-b537-8f9b53adb2bc</id>
+      <masked>false</masked>
+      <name>reservationId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.guid</defaultValue>
+      <description></description>
+      <id>397ce182-b59a-48d9-ad44-5f738aaf4a1e</id>
+      <masked>false</masked>
+      <name>guid</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.XAUTH_TRAVELPORT_ACCESSGROUP_1G</defaultValue>
+      <description></description>
+      <id>c6133163-fc95-4a9d-b4eb-c23dd1307d5e</id>
+      <masked>false</masked>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP_1G</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

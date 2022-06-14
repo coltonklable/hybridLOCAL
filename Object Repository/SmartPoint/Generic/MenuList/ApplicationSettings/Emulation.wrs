@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>Emulation</name>
+   <tag></tag>
+   <locator>CheckBox_4adbb1d87796f5</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+</WindowsElementEntity>

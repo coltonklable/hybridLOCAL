@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>WinSignOn</name>
+   <tag></tag>
+   <locator>Window_MULTIGDS_WINDOW</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>IsEnabled</name>
+      <type>Main</type>
+      <value>true</value>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>IsOffscreen</name>
+      <type>Main</type>
+      <value>false</value>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>IsKeyboardFocusable</name>
+      <type>Main</type>
+      <value>true</value>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>HasKeyboardFocus</name>
+      <type>Main</type>
+      <value>false</value>
+   </properties>
+</WindowsElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ButtonCancel</name>
+   <tag></tag>
+   <locator>Button_SON_CANCEL</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+</WindowsElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>TextBoxCreateEMD</name>
+   <tag></tag>
+   <locator>//Edit[@AutomationId=&quot;TextBox_2ec931862742c44&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>AutomationId</name>
+      <type>Main</type>
+      <value>TextBox_2ec931862742c44</value>
+   </properties>
+</WindowsElementEntity>

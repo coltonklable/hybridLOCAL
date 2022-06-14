@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ContinueEXTicket</name>
+   <tag></tag>
+   <locator>CONTINUE</locator>
+   <locatorStrategy>NAME</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>AutomationId</name>
+      <type>Main</type>
+      <value>Button_2ec931862747471</value>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>Button</value>
+   </properties>
+</WindowsElementEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Search Request Round Trip GDS</name>
+   <tag></tag>
+   <elementGuidId>230a5c01-34b0-4238-989b-2ac3d3fc8b88</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n  \&quot;CatalogOfferingsQueryRequest\&quot;: {\r\n    \&quot;CatalogOfferingsRequest\&quot;: [\r\n      {\r\n        \&quot;@type\&quot;: \&quot;CatalogOfferingsRequestAir\&quot;,\r\n        \&quot;maxNumberOfOffersToReturn\&quot;: 200,\r\n        \&quot;offersPerPage\&quot;: 200,\r\n        \&quot;contentSourceList\&quot;: [\r\n          \&quot;GDS\&quot;\r\n        ],\r\n        \&quot;returnBrandedFaresInd\&quot;: true,\r\n        \&quot;detailViewInd\&quot;: true,\r\n        \&quot;upsellInd\&quot;: true,\r\n        \&quot;PassengerCriteria\&quot;: [\r\n          {\r\n            \&quot;@type\&quot;: \&quot;PassengerCriteria\&quot;,\r\n            \&quot;number\&quot;: 1,\r\n            \&quot;passengerTypeCode\&quot;: \&quot;ADT\&quot;\r\n          }\r\n        ],\r\n        \&quot;SearchCriteriaFlight\&quot;: [\r\n          {\r\n            \&quot;departureDate\&quot;: \&quot;2021-12-16\&quot;,\r\n            \&quot;From\&quot;: {\r\n              \&quot;value\&quot;: \&quot;SIN\&quot;\r\n            },\r\n            \&quot;To\&quot;: {\r\n              \&quot;value\&quot;: \&quot;BOM\&quot;\r\n            }\r\n          },\r\n          {\r\n            \&quot;departureDate\&quot;: \&quot;2021-12-21\&quot;,\r\n            \&quot;From\&quot;: {\r\n              \&quot;value\&quot;: \&quot;BOM\&quot;\r\n            },\r\n            \&quot;To\&quot;: {\r\n              \&quot;value\&quot;: \&quot;SIN\&quot;\r\n            }\r\n          }\r\n        ],\r\n        \&quot;SearchModifiersAir\&quot;: {\r\n          \&quot;excludeGround\&quot;: \&quot;Train\&quot;,\r\n          \&quot;CabinPreference\&quot;: [\r\n            {\r\n              \&quot;preferenceType\&quot;: \&quot;Preferred\&quot;,\r\n              \&quot;cabins\&quot;: [\r\n                \&quot;Economy\&quot;\r\n              ]\r\n            }\r\n          ],\r\n          \&quot;ConnectionPreferences\&quot;: [\r\n            {\r\n              \&quot;@type\&quot;: \&quot;ConnectionPreferencesAir\&quot;,\r\n              \&quot;FlightType\&quot;: {\r\n                \&quot;connectionType\&quot;: \&quot;DoubleConnection\&quot;\r\n              }\r\n            }\r\n          ]\r\n        },\r\n        \&quot;PricingModifiersAir\&quot;: {\r\n          \&quot;@type\&quot;: \&quot;PricingModifiersAir\&quot;,\r\n          \&quot;currencyCode\&quot;: \&quot;AUD\&quot;,\r\n          \&quot;FareSelection\&quot;: {\r\n            \&quot;@type\&quot;: \&quot;FareSelectionDetail\&quot;,\r\n            \&quot;fareType\&quot;: \&quot;PublicFaresOnly\&quot;\r\n          }\r\n        }\r\n      }\r\n    ]\r\n  }\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>E2ETrackingID</name>
+      <type>Main</type>
+      <value>${guid}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP</name>
+      <type>Main</type>
+      <value>${XAUTH_TRAVELPORT_ACCESSGROUP_1G}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Version</name>
+      <type>Main</type>
+      <value>${Version}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Version</name>
+      <type>Main</type>
+      <value>${Version}</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://api.apim-a.zu2.qa.travelport.io/uat/${Version}/air/search/catalogofferings</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Version</defaultValue>
+      <description></description>
+      <id>d4a3a817-7d93-445c-b08d-281c1a61da50</id>
+      <masked>false</masked>
+      <name>Version</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.guid</defaultValue>
+      <description></description>
+      <id>bef7b9d6-6da2-4757-b824-0c97d285d4a6</id>
+      <masked>false</masked>
+      <name>guid</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.XAUTH_TRAVELPORT_ACCESSGROUP_1G</defaultValue>
+      <description></description>
+      <id>7de47eb6-159f-425f-92a0-c6844e2cb18f</id>
+      <masked>false</masked>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP_1G</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

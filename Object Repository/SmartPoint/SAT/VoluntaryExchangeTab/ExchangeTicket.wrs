@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ExchangeTicket</name>
+   <tag></tag>
+   <locator>EXCHANGE TICKET</locator>
+   <locatorStrategy>NAME</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>AutomationId</name>
+      <type>Main</type>
+      <value>Button_2ec9318627a1c28</value>
+   </properties>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>Button</value>
+   </properties>
+</WindowsElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ButtonVoid</name>
+   <tag></tag>
+   <locator>//Button[@AutomationId=&quot;Button_2ec93186272e2ee&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ContinueEMD</name>
+   <tag></tag>
+   <locator>//Button[@AutomationId=&quot;Button_2ec931862742c6d&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>Button</value>
+   </properties>
+</WindowsElementEntity>

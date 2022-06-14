@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>ValidateRulesCopy</name>
+   <tag></tag>
+   <locator>//CheckBox[@AutomationId=&quot;CheckBox_2ec9318627a16a1&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ClassName</name>
+      <type>Main</type>
+      <value>CheckBox</value>
+   </properties>
+</WindowsElementEntity>

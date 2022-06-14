@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>Carrier</name>
+   <tag></tag>
+   <locator>TextBlock_2ec931862791ad0</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
+</WindowsElementEntity>

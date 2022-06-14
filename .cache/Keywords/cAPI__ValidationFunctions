@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "5421413263F13047CF6D7EB1B69C2C91",
+  "keywordClasses": [
+    {
+      "name": "cAPI.ValidationFunctions",
+      "keywordMethods": [
+        {
+          "name": "fetchXMLNodeValue",
+          "parameters": [
+            {
+              "name": "Response",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.ResponseObject",
+                "unresolvedClassName": "ResponseObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "xmlNode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

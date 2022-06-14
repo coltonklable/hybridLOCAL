@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Add Primary Contact Remarks CTCB with Alphanumeric</name>
+   <tag></tag>
+   <elementGuidId>45933dab-5cbd-4530-a7e4-8a80b995abaf</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;PrimaryContact\&quot;: {\n        \&quot;shareWithSupplier\&quot;: [\n            \&quot;YY\&quot;\n        ],\n        \&quot;Telephone\&quot;: {\n            \&quot;@type\&quot;: \&quot;Telephone\&quot;,\n            \&quot;role\&quot;: \&quot;Work\&quot;,\n            \&quot;countryAccessCode\&quot;: \&quot;1\&quot;,\n            \&quot;areaCityCode\&quot;: \&quot;303\&quot;,\n            \&quot;phoneNumber\&quot;: \&quot;LOWEST FARE CUSTOMER SVCE 800 340 0575 AGENCY CONTACT SHARED WITH THE CARRIER\&quot;,\n            \&quot;extension\&quot;: \&quot;1234\&quot;,\n            \&quot;id\&quot;: \&quot;telephone_1\&quot;,\n            \&quot;cityCode\&quot;: \&quot;DEN\&quot;\n        }\n    }\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>E2ETrackingID</name>
+      <type>Main</type>
+      <value>${$guid}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP</name>
+      <type>Main</type>
+      <value>${XAUTH_TRAVELPORT_ACCESSGROUP_1G}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Version</name>
+      <type>Main</type>
+      <value>${Version}</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://api.apim-a.zu2.qa.travelport.io/uat/${Version}/air/book/primarycontact/RES_DOMAIN/reservationworkbench/${reservationId}/primarycontacts</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Version</defaultValue>
+      <description></description>
+      <id>e07731f7-287e-45c9-b057-845130cefaa8</id>
+      <masked>false</masked>
+      <name>Version</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.reservationId</defaultValue>
+      <description></description>
+      <id>00748d01-e040-4817-90f3-11dd9223cb31</id>
+      <masked>false</masked>
+      <name>reservationId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.$guid</defaultValue>
+      <description></description>
+      <id>0ab25278-518b-48df-8e25-8da52b6a763b</id>
+      <masked>false</masked>
+      <name>$guid</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.XAUTH_TRAVELPORT_ACCESSGROUP_1G</defaultValue>
+      <description></description>
+      <id>e1294bf3-9bcb-4ed6-9b34-619a4095689a</id>
+      <masked>false</masked>
+      <name>XAUTH_TRAVELPORT_ACCESSGROUP_1G</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>CheckBoxFullRefund</name>
+   <tag></tag>
+   <locator>//CheckBox[@AutomationId=&quot;CheckBox_2ec93186271d33e&quot;]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>
