@@ -1,0 +1,100 @@
+{
+  "keywordFileContentHash": "E38D3F5439B0CEC3A3310E69A4BA12C7",
+  "keywordClasses": [
+    {
+      "name": "smartpoint.SATGeneric",
+      "keywordMethods": [
+        {
+          "name": "ChangeDateOfTravel",
+          "parameters": [
+            {
+              "name": "sDate",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sSegment",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "CancelAndAddFares",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "LaunchSAT",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "checkVoidCheckBox",
+          "parameters": [
+            {
+              "name": "sPaxname",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sSegment",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "voidOperation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "validateTicketDetailsRemovedFromSATScreen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closeSAT",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

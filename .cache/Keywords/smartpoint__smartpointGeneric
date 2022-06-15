@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C9A143A4F7A7284241B160B3BE4FA00D",
+  "keywordClasses": [
+    {
+      "name": "smartpoint.smartpointGeneric",
+      "keywordMethods": [
+        {
+          "name": "LoginSmartpoint",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
