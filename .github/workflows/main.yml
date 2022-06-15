@@ -1,0 +1,29 @@
+name: Katalon API
+on:
+  push:
+  schedule:
+    - cron: '0 17 * * *' #at 5 pm (23:00 pm UTC) 
+  
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    #Pull most recent repo to examine test suites
+    - name: Pull from Repo
+      uses: actions/checkout@v1
+    #Begin Test Execution
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2
+      with:
+          version: '7.5.5'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -retry=0 -browserType=Chrome -testSuitePath="Test Suites/test1" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+    #Email on Success
+    - name: Successful Test
+      if: success()
+      run : echo "${{ toJSON(job) }}"
+    #Email on Failure
+    - name: Failed Test
+      if: cancelled()
+      run: echo "This is where we will email failure"
