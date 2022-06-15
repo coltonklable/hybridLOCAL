@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0B58794F56A09BC22BF7898AE0D300D7",
+  "keywordClasses": [
+    {
+      "name": "com.travelport.castle.castle",
+      "keywordMethods": [
+        {
+          "name": "AddMessage",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
