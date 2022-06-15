@@ -18,7 +18,7 @@ jobs:
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -browserType=Chrome -testSuitePath="Test Suites/Customer Scenarios" -apiKey="8ad1cbe2-af76-413e-ac8d-3aead3a2cd7b"  --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -browserType=Chrome -testSuitePath="Test Suites/Customer Scenarios" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
     #Email on Success
     - name: Successful Test
       if: success()
